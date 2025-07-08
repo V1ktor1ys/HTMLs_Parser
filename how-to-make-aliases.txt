@@ -1,0 +1,7 @@
+1. Open the .zshrc file: nano ~/.zshrc
+2. Add the lines:
+alias ap1='python3 extract_apartments.py'
+alias ap2='open apartment_list.csv'
+alias ap3='rm -f apartment_list.csv parsed_files.txt ./htmls/*.htm'
+3. Save, exit, and refresh: source ~/.zshrc
+4. Test: gco <branch_name>
