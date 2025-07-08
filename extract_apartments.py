@@ -11,7 +11,7 @@ output_file = "apartment_list.csv"
 parsed_log_file = "parsed_files.txt"
 headers = ["#", "Date", "Link", "", "", "Land Lord", "Published", "Rooms", "m²", "Price (Warm)", "Available From", "Address"]
 
-# Load already parsed files
+# Load already parsed files (as full relative paths like htmls_07.08/3.html)
 parsed_files = set()
 if os.path.exists(parsed_log_file):
     with open(parsed_log_file, "r", encoding="utf-8") as f:
@@ -40,7 +40,10 @@ def parse_immoscout24(soup):
     link = listing.get("url", "")
 
     contact_elem = soup.select_one('[data-qa="contactName"]')
-    landlord = contact_elem.get_text(strip=True) if contact_elem else provider.get("name", "")
+    if contact_elem:
+        landlord = contact_elem.get_text(strip=True)
+    else:
+        landlord = provider.get("name", "")
 
     published = listing.get("datePosted", "")
 
@@ -100,17 +103,16 @@ def parse_immowelt(soup, file):
     if size_elem:
         size = re.search(r"\d+", size_elem.get_text(strip=True)).group(0)
 
-    # Try to extract from hidden <span class="css-9wpf20"> inside Warmmiete block
     warm_rent = ""
-    warm_label_block = soup.find("div", class_="css-2bd70b", string=re.compile(r"Warmmiete", re.IGNORECASE))
+    warm_label_block = soup.find("div", class_="css-2bd70b", string=re.compile("Warmmiete", re.IGNORECASE))
     if warm_label_block:
         parent = warm_label_block.find_parent()
         if parent:
             price_span = parent.find_next_sibling()
             if price_span:
-                hidden = price_span.find("span", class_="css-9wpf20")
-                if hidden:
-                    warm_rent = hidden.get_text(strip=True)
+                visually_hidden = price_span.find("span", class_="css-9wpf20")
+                if visually_hidden:
+                    warm_rent = visually_hidden.get_text(strip=True)
 
     available_from = ""
     avail_elem = soup.find("span", class_="css-2bd70b", string=re.compile(r"\d{2}\.\d{2}\.\d{4}"))
@@ -126,42 +128,41 @@ def parse_immowelt(soup, file):
     return [link, "", "", landlord, published, rooms, size, warm_rent, available_from, address]
 
 # Run extraction
-html_files = []
-for subfolder in sorted(input_root.iterdir()):
-    if subfolder.is_dir() and subfolder.name.lower().startswith("htmls_"):
-        date_part = subfolder.name.split("_")[1]
-        for file in sorted(subfolder.glob("*.htm*"), key=lambda f: int(f.stem) if f.stem.isdigit() else f.stem):
-            html_files.append((file, date_part))
+html_folders = sorted(input_root.glob("htmls_*"))
 
 with open(output_file, "a", newline="", encoding="utf-8-sig") as csvfile:
-    writer = csv.writer(csvfile, delimiter=";")
+    writer = csv.writer(csvfile, delimiter=';')
     if write_headers:
         writer.writerow(headers)
 
-    for file, date_str in html_files:
-        if file.name in parsed_files:
-            print(f"⏭️ Skipping already parsed file: {file.name}")
-            continue
-
-        try:
-            with open(file, "r", encoding="utf-8") as f:
-                soup = BeautifulSoup(f, "html.parser")
-
-            site = detect_site(soup)
-            if site == "immoscout24":
-                row = parse_immoscout24(soup)
-            elif site == "immowelt":
-                row = parse_immowelt(soup, file)
-            else:
-                print(f"❌ Unknown site structure: {file.name}")
+    for folder in html_folders:
+        files = sorted(folder.glob("*.htm*"), key=lambda f: int(f.stem) if f.stem.isdigit() else f.stem)
+        for idx, file in enumerate(files, start=1):
+            relative_path = file.relative_to(input_root)
+            if str(relative_path) in parsed_files:
+                print(f"⏭️ Skipping already parsed file: {relative_path}")
                 continue
 
-            listing_number = Path(file).stem  # Extracts "1" from "1.html"
-            writer.writerow([listing_number, date_str] + row)
-            print(f"✔️ Processed: {file.name}")
+            try:
+                with open(file, "r", encoding="utf-8") as f:
+                    soup = BeautifulSoup(f, "html.parser")
 
-            with open(parsed_log_file, "a", encoding="utf-8") as log:
-                log.write(f"{file.name}\n")
+                site = detect_site(soup)
 
-        except Exception as e:
-            print(f"❌ Error in {file.name}: {e}")
+                if site == "immoscout24":
+                    row_data = parse_immoscout24(soup)
+                elif site == "immowelt":
+                    row_data = parse_immowelt(soup, file)
+                else:
+                    print(f"❌ Unknown site structure: {relative_path}")
+                    continue
+
+                date_str = folder.name.replace("htmls_", "")
+                writer.writerow([idx, date_str] + row_data)
+                print(f"✔️ Processed: {relative_path}")
+
+                with open(parsed_log_file, "a", encoding="utf-8") as log:
+                    log.write(f"{relative_path}\n")
+
+            except Exception as e:
+                print(f"❌ Error in {relative_path}: {e}")
