@@ -8,18 +8,19 @@ import re
 # Paths and settings
 input_root = Path("./HTMLs")
 output_file = "apartment_list.csv"
-parsed_log_file = Path("parsed_files.txt")
+parsed_log_file = "parsed_files.txt"
 headers = ["#", "Date", "Link", "", "", "Land Lord", "Published", "Rooms", "m²", "Price (Warm)", "Available From", "Address"]
 
 # Load already parsed files (as full relative paths like htmls_07.08/3.html)
 parsed_files = set()
-if parsed_log_file.exists():
+if os.path.exists(parsed_log_file):
     with open(parsed_log_file, "r", encoding="utf-8") as f:
         parsed_files = set(line.strip() for line in f)
 
 # Determine if headers should be written
 write_headers = not os.path.exists(output_file)
 
+# Detect site based on HTML content
 def detect_site(soup):
     text = soup.get_text().lower()
     if "immobilienscout24" in text or "is24" in text:
@@ -28,6 +29,7 @@ def detect_site(soup):
         return "immowelt"
     return "unknown"
 
+# Parser for immobilienscout24.de
 def parse_immoscout24(soup):
     json_ld = soup.find("script", type="application/ld+json")
     data = json.loads(json_ld.string)["@graph"]
@@ -36,8 +38,13 @@ def parse_immoscout24(soup):
     offer = listing.get("offers", {})
 
     link = listing.get("url", "")
+
     contact_elem = soup.select_one('[data-qa="contactName"]')
-    landlord = contact_elem.get_text(strip=True) if contact_elem else provider.get("name", "")
+    if contact_elem:
+        landlord = contact_elem.get_text(strip=True)
+    else:
+        landlord = provider.get("name", "")
+
     published = listing.get("datePosted", "")
 
     rooms_meta = soup.find("meta", {"name": "branch:deeplink:expose-number-of-rooms"})
@@ -76,6 +83,7 @@ def parse_immoscout24(soup):
 
     return [link, "", "", landlord, published, rooms, size, warm_rent, available_from, address]
 
+# Parser for immowelt.de
 def parse_immowelt(soup, file):
     link_tag = soup.find("link", rel="canonical")
     link = link_tag["href"] if link_tag else f"https://www.immowelt.de/expose/{file.stem}"
@@ -135,25 +143,24 @@ with open(output_file, "a", newline="", encoding="utf-8-sig") as csvfile:
                 print(f"⏭️ Skipping already parsed file: {relative_path}")
                 continue
 
-            date_str = folder.name.replace("htmls_", "")
             try:
                 with open(file, "r", encoding="utf-8") as f:
                     soup = BeautifulSoup(f, "html.parser")
 
                 site = detect_site(soup)
+
                 if site == "immoscout24":
                     row_data = parse_immoscout24(soup)
                 elif site == "immowelt":
                     row_data = parse_immowelt(soup, file)
                 else:
                     print(f"❌ Unknown site structure: {relative_path}")
-                    writer.writerow([idx, date_str] + [""] * (len(headers) - 2))
-                    with open(parsed_log_file, "a", encoding="utf-8") as log:
-                        log.write(f"{relative_path}\n")
                     continue
 
+                date_str = folder.name.replace("htmls_", "")
                 writer.writerow([idx, date_str] + row_data)
                 print(f"✔️ Processed: {relative_path}")
+
                 with open(parsed_log_file, "a", encoding="utf-8") as log:
                     log.write(f"{relative_path}\n")
 
