@@ -43,3 +43,6 @@ htmls_07.08\5.html
 htmls_07.08\6.htm
 htmls_07.08\7.html
 htmls_07.08\8.html
+htmls_07.09\1.html
+htmls_07.09\2.html
+htmls_07.09\3.html
