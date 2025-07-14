@@ -1,60 +1,65 @@
 ﻿#;Date;Link;;;Land Lord;Published;Rooms;m²;Price (Warm);Available From;Address
-1;06.20;https://www.immobilienscout24.de/expose/159745752;;;;20-06-2025;1;31;990 €;01.07.2025;Moosach-Bahnhof, 80997 München
-2;06.20;https://www.immobilienscout24.de/expose/159753496;;;LIVA IMMO Team;20-06-2025;1;34;925 €;01.08.2025;Linus-Funke-Weg 22, Lerchenau-West, 80995 München
-3;06.20;https://www.immobilienscout24.de/expose/158231029;;;Herr   Lamparter;20-06-2025;2;49.5;1.040 €;01.07.2025;Helmut-Käutner-Straße 27, Neuperlach, 81739 München
-1;06.30;https://www.immobilienscout24.de/expose/142355269;;;;29-06-2025;2;44;1.135 €;01.09.2025;Stroblstraße 24, St. Ulrich, 80689 München
-2;06.30;https://www.immobilienscout24.de/expose/106889561;;;Herr J. Klein;29-06-2025;1;29.5;795 €;1.8.2025;Münchner Freiheit, 80804 München
-3;06.30;https://www.immobilienscout24.de/expose/160137457;;;Frau Alexandra Tatar;30-06-2025;2;38;1.200 €;15.08.2025;Moosacher Str.  1, Am Riesenfeld, 80809 München
-4;06.30;https://www.immobilienscout24.de/expose/160079185;;;Frau Melanie Gabriel-Hartinger;30-06-2025;1.5;38.52;1.070 €;1.9.2025;Ernst-von-Beling-Straße 15, Allach, 80997 München
-5;06.30;https://www.immobilienscout24.de/expose/130902751;;;Frau Katrin Engel;30-06-2025;1;35.09;1.173 €;1.8.2025;Thalkirchen, 81379 München
-6;06.30;https://www.immobilienscout24.de/expose/160140274;;;Frau Diana Pilzweger-Krämer;30-06-2025;1;31;795 €;ab sofort;Dom Pedro, 80637 München
-1;07.02;https://www.immobilienscout24.de/expose/160185784;;;Herr Dieter Richter;02-07-2025;1;43;1.165 €;2.7.2025;Benediktenwandstraße 20, Harlaching, 81545 München
-2;07.02;https://www.immobilienscout24.de/expose/160171598;;;Herr B. V.;01-07-2025;1;29;900 €;15.7.2025;Ebenauer Straße 20, Dom Pedro, 80637 München
-3;07.02;https://www.immobilienscout24.de/expose/160173622;;;B. Sandberg;01-07-2025;1.5;35;895 €;sofort;Motorstr. 33, Am Riesenfeld, 80809 München
-4;07.02;https://www.immobilienscout24.de/expose/160147947;;;Herr Roland Gotz;30-06-2025;1;40;1.200 €;1.9.2025;Pfitznerstraße 3, Milbertshofen, 80807 München
-5;07.02;https://www.immobilienscout24.de/expose/160166065;;;;01-07-2025;1;34;1.100 €;01.08.2025;Untergiesing, 81543 München
-6;07.02;https://www.immobilienscout24.de/expose/160189822;;;Herr Martin Beck;02-07-2025;1.5;36.4;1.060 €;1.8.2025;Straubinger Straße 9, Friedenheim, 80687 München
-7;07.02;https://www.immobilienscout24.de/expose/160191852;;;Alexander Stücklen;02-07-2025;1;30.41;674 €;21.07.2025;Blodigstraße 1, Lerchenau-Ost, 80933 München
+1;06.20;https://www.immobilienscout24.de/expose/159745752;;;;20/06/2025;1;31;990 €;01.07.2025;Moosach-Bahnhof, 80997 München
+2;06.20;https://www.immobilienscout24.de/expose/159753496;;;LIVA IMMO Team;20/06/2025;1;34;925 €;01.08.2025;Linus-Funke-Weg 22, Lerchenau-West, 80995 München
+3;06.20;https://www.immobilienscout24.de/expose/158231029;;;Herr   Lamparter;20/06/2025;2;49.5;1.040 €;01.07.2025;Helmut-Käutner-Straße 27, Neuperlach, 81739 München
+1;06.30;https://www.immobilienscout24.de/expose/142355269;;;;29/06/2025;2;44;1.135 €;01.09.2025;Stroblstraße 24, St. Ulrich, 80689 München
+2;06.30;https://www.immobilienscout24.de/expose/106889561;;;Herr J. Klein;29/06/2025;1;29.5;795 €;1.8.2025;Münchner Freiheit, 80804 München
+3;06.30;https://www.immobilienscout24.de/expose/160137457;;;Frau Alexandra Tatar;30/06/2025;2;38;1.200 €;15.08.2025;Moosacher Str.  1, Am Riesenfeld, 80809 München
+4;06.30;https://www.immobilienscout24.de/expose/160079185;;;Frau Melanie Gabriel-Hartinger;30/06/2025;1.5;38.52;1.070 €;1.9.2025;Ernst-von-Beling-Straße 15, Allach, 80997 München
+5;06.30;https://www.immobilienscout24.de/expose/130902751;;;Frau Katrin Engel;30/06/2025;1;35.09;1.173 €;1.8.2025;Thalkirchen, 81379 München
+6;06.30;https://www.immobilienscout24.de/expose/160140274;;;Frau Diana Pilzweger-Krämer;30/06/2025;1;31;795 €;ab sofort;Dom Pedro, 80637 München
+1;07.02;https://www.immobilienscout24.de/expose/160185784;;;Herr Dieter Richter;02/07/2025;1;43;1.165 €;2.7.2025;Benediktenwandstraße 20, Harlaching, 81545 München
+2;07.02;https://www.immobilienscout24.de/expose/160171598;;;Herr B. V.;01/07/2025;1;29;900 €;15.7.2025;Ebenauer Straße 20, Dom Pedro, 80637 München
+3;07.02;https://www.immobilienscout24.de/expose/160173622;;;B. Sandberg;01/07/2025;1.5;35;895 €;sofort;Motorstr. 33, Am Riesenfeld, 80809 München
+4;07.02;https://www.immobilienscout24.de/expose/160147947;;;Herr Roland Gotz;30/06/2025;1;40;1.200 €;1.9.2025;Pfitznerstraße 3, Milbertshofen, 80807 München
+5;07.02;https://www.immobilienscout24.de/expose/160166065;;;;01/07/2025;1;34;1.100 €;01.08.2025;Untergiesing, 81543 München
+6;07.02;https://www.immobilienscout24.de/expose/160189822;;;Herr Martin Beck;02/07/2025;1.5;36.4;1.060 €;1.8.2025;Straubinger Straße 9, Friedenheim, 80687 München
+7;07.02;https://www.immobilienscout24.de/expose/160191852;;;Alexander Stücklen;02/07/2025;1;30.41;674 €;21.07.2025;Blodigstraße 1, Lerchenau-Ost, 80933 München
 8;07.02;;;;;;;;;;
-9;07.02;https://www.immobilienscout24.de/expose/160067176;;;Frau Brommont;02-07-2025;1;28;1.200 €;;Echarding, 81673 München
-10;07.02;https://www.immobilienscout24.de/expose/136091623;;;Herr Wolfgang Staender;02-07-2025;1.5;45;1.025 €;1.8.2025;Schmaedelstraße 22, Neupasing, 81245 München
-1;07.03;https://www.immobilienscout24.de/expose/126174782;;;Herr M Meinel;02-07-2025;1.5;44;1.200 €;1.9.2025;Schlierseestr. 71, Obergiesing, 81539 München
-2;07.03;https://www.immobilienscout24.de/expose/160208796;;;Frau Franziska Riedl;03-07-2025;1.5;29.01;1.145 €;01.12.2025;Feldmochinger Straße 206, Lerchenau-West, 80995 München
-1;07.04;https://www.immobilienscout24.de/expose/127004765;;;Herr T. E.;03-07-2025;1;39;1.115 €;3.7.2025;Solln, 81479 München
-2;07.04;https://www.immobilienscout24.de/expose/122604158;;;Herr ikr- Stiftung;04-07-2025;2;58.22;920 €;1.8.2025;Kirchwaldstraße 1, Friedenheim, 80686 München
-3;07.04;https://www.immobilienscout24.de/expose/160227278;;;Frau N. Jungbauer;04-07-2025;1;33.19;1.150 €;4.7.2025;Freihamer Weg 86, Aubing-Süd, 81249 München
-4;07.04;https://www.immobilienscout24.de/expose/160232582;;;Immobilienverwaltung  Edda E. Albert;04-07-2025;1;31;885 €;ab sofort;Geroldseckstr.  20, Neuhadern, 81375 München
-5;07.04;https://www.immobilienscout24.de/expose/121538743;;;Frau A. Schwarzenbach;04-07-2025;1;36;925 €;16.7.2025;Schlierseestr. 4, Obergiesing, 81541 München
-1;07.06;https://www.immobilienscout24.de/expose/160270168;;;;06-07-2025;2;60;1.150 €;Ab sofort bezugsfrei;Josephinenstraße 9, Thalkirchen, 81479 München
-2;07.06;https://www.immobilienscout24.de/expose/148592577;;;Frau Christina Blahusch, Immobilienfachwirtin (IHK);06-07-2025;1;31.36;755 €;sofort;Neuhausen, 80634 München
-3;07.06;https://www.immobilienscout24.de/expose/160272490;;;Herr Herbert Reicheneder;06-07-2025;2;35;800 €;6.7.2025;Spiegelbergstr. 22, Allach, 80997 München
-4;07.06;https://www.immobilienscout24.de/expose/101347779;;;Herr Christopher Tweedale;06-07-2025;1;42;990 €;17.10.2025;Hans-Stützle-Straße 31, Freiham, 81249 München
-1;07.07;https://www.immobilienscout24.de/expose/112663373;;;Frau Susanne Sudenn;07-07-2025;1;33;900 €;7.7.2025;Belgradstrasse 74, Am Luitpoldpark, 80804 München
-2;07.07;https://www.immobilienscout24.de/expose/160207302;;;Herr Michael Stampfl;07-07-2025;1;27;1.090 €;1.9.2025;Sendlinger Feld, 81371 München
-3;07.07;https://www.immobilienscout24.de/expose/128954260;;;Herr Johannes Eltz;07-07-2025;1;30;1.200 €;1.9.2025;Schleißheimer Straße 188, Am Luitpoldpark, 80797 München
-4;07.07;https://www.immobilienscout24.de/expose/160273597;;;;07-07-2025;2;50;1.079,19 €;01.08.2025;Georgenstraße 108, Neuschwabing, 80798 München
-5;07.07;https://www.immobilienscout24.de/expose/160292486;;;Frau Manuela Dorin;07-07-2025;1.5;40;800,44 €;01.09.2025;Schmuzerstraße 16, Mittersendling, 81373 München
-6;07.07;https://www.immobilienscout24.de/expose/156671606;;;Herr Stephan Maier;07-07-2025;1;29;870 €;1.8.25;Springerstraße 31, Solln, 81477 München
-7;07.07;https://www.immobilienscout24.de/expose/160295176;;;Herr Michael Klügl;07-07-2025;2;50;1.160 €;1.8.2025;Pappenheimstraße 7, Marsfeld, 80335 München
-8;07.07;https://www.immobilienscout24.de/expose/160295064;;;Frau Dominique Müller;07-07-2025;2;57;1.070 €;sofort;Grandauerstrasse 24, Allach, 80997 München
-1;07.08;https://www.immobilienscout24.de/expose/160304698;;;Firma   Killer Haus- und Mietverwaltung GmbH;08-07-2025;1;40.87;1.000 €;;Weltenburger Str. 43, Englschalking, 82131 München
-2;07.08;https://www.immobilienscout24.de/expose/160297164;;;;07-07-2025;1.5;42;1.050 €;Ab sofort bezugsfrei;Ratoldstraße 30, Feldmoching, 80995 München
-3;07.08;https://www.immobilienscout24.de/expose/160290206;;;Jakob Holzapfl;08-07-2025;1;35;850 €;1.9.2025;Sachranger Straße 39, Obergiesing, 81549 München
-4;07.08;https://www.immobilienscout24.de/expose/160310837;;;Herr Herr Lange;08-07-2025;2;51;1.170 €;1.8.2025;Dornbergstraße 23, Echarding, 81673 München
-5;07.08;https://www.immobilienscout24.de/expose/156985947;;;Herr Emil Peithner;08-07-2025;1;32;1.190 €;8.7.2025;Erich-Kästner-Straße 12, Neuschwabing, 80796 München
-6;07.08;https://www.immobilienscout24.de/expose/160315652;;;Janine Weinhold;08-07-2025;2;50.4;1.199,19 €;01.10.2025;Georgenstr. 108, Neuschwabing, 80798 München
-7;07.08;https://www.immobilienscout24.de/expose/141601881;;;Herr Thomas R.;08-07-2025;1;27;1.050 €;20.4.2023;Schleißheimerstr. 124, Neuschwabing, 80797 München
-8;07.08;https://www.immobilienscout24.de/expose/160319813;;;Herr Manfred Selmer;08-07-2025;1;34;770 €;15.9.2025;Forstenried, 81476 München
-1;07.09;https://www.immobilienscout24.de/expose/115175286;;;Herr . Danner;09-07-2025;1;39;920 €;15.7.2025;Obermenzing, 81245 München
-2;07.09;https://www.immobilienscout24.de/expose/88656433;;;Herr R. Meierlohr;09-07-2025;1;30;950 €;1.8.2025;Springerstr. 33, Solln, 81477 München
-3;07.09;https://www.immobilienscout24.de/expose/160333141;;;Frau  Baum.;09-07-2025;2;45.5;1.124,85 €;19.08.25;Echinger Str. 14C, Alte Heide-Hirschau, 80805 München
-4;07.09;https://www.immobilienscout24.de/expose/160341083;;;Herr Der Vermieter;09-07-2025;1;35;900 €;1.8.2025;Tucholskystraße 8, Neuperlach, 81737 München
-1;07.10;https://www.immobilienscout24.de/expose/160342708;;;Frau Conny Jolitz;09-07-2025;2;50;1.070 €;15.8.2025;Sarlouiser Str. 3, Moosach-Bahnhof, 80993 München
-2;07.10;https://www.immobilienscout24.de/expose/160342823;;;Immobilien Philipp Nothdurft;10-07-2025;1;33;1.080 €;nach Absprache, ca.01.09.2025;Zillertalstr. 0, Mittersendling, 81373 München
-3;07.10;https://www.immobilienscout24.de/expose/160343139;;;Frau Pia Legler;10-07-2025;1.5;35;1.000 €;16.07.2025;Kleinstraße 45, Thalkirchen, 81379 München
+9;07.02;https://www.immobilienscout24.de/expose/160067176;;;Frau Brommont;02/07/2025;1;28;1.200 €;;Echarding, 81673 München
+10;07.02;https://www.immobilienscout24.de/expose/136091623;;;Herr Wolfgang Staender;02/07/2025;1.5;45;1.025 €;1.8.2025;Schmaedelstraße 22, Neupasing, 81245 München
+1;07.03;https://www.immobilienscout24.de/expose/126174782;;;Herr M Meinel;02/07/2025;1.5;44;1.200 €;1.9.2025;Schlierseestr. 71, Obergiesing, 81539 München
+2;07.03;https://www.immobilienscout24.de/expose/160208796;;;Frau Franziska Riedl;03/07/2025;1.5;29.01;1.145 €;01.12.2025;Feldmochinger Straße 206, Lerchenau-West, 80995 München
+1;07.04;https://www.immobilienscout24.de/expose/127004765;;;Herr T. E.;03/07/2025;1;39;1.115 €;3.7.2025;Solln, 81479 München
+2;07.04;https://www.immobilienscout24.de/expose/122604158;;;Herr ikr- Stiftung;04/07/2025;2;58.22;920 €;1.8.2025;Kirchwaldstraße 1, Friedenheim, 80686 München
+3;07.04;https://www.immobilienscout24.de/expose/160227278;;;Frau N. Jungbauer;04/07/2025;1;33.19;1.150 €;4.7.2025;Freihamer Weg 86, Aubing-Süd, 81249 München
+4;07.04;https://www.immobilienscout24.de/expose/160232582;;;Immobilienverwaltung  Edda E. Albert;04/07/2025;1;31;885 €;ab sofort;Geroldseckstr.  20, Neuhadern, 81375 München
+5;07.04;https://www.immobilienscout24.de/expose/121538743;;;Frau A. Schwarzenbach;04/07/2025;1;36;925 €;16.7.2025;Schlierseestr. 4, Obergiesing, 81541 München
+1;07.06;https://www.immobilienscout24.de/expose/160270168;;;;06/07/2025;2;60;1.150 €;Ab sofort bezugsfrei;Josephinenstraße 9, Thalkirchen, 81479 München
+2;07.06;https://www.immobilienscout24.de/expose/148592577;;;Frau Christina Blahusch, Immobilienfachwirtin (IHK);06/07/2025;1;31.36;755 €;sofort;Neuhausen, 80634 München
+3;07.06;https://www.immobilienscout24.de/expose/160272490;;;Herr Herbert Reicheneder;06/07/2025;2;35;800 €;6.7.2025;Spiegelbergstr. 22, Allach, 80997 München
+4;07.06;https://www.immobilienscout24.de/expose/101347779;;;Herr Christopher Tweedale;06/07/2025;1;42;990 €;17.10.2025;Hans-Stützle-Straße 31, Freiham, 81249 München
+1;07.07;https://www.immobilienscout24.de/expose/112663373;;;Frau Susanne Sudenn;07/07/2025;1;33;900 €;7.7.2025;Belgradstrasse 74, Am Luitpoldpark, 80804 München
+2;07.07;https://www.immobilienscout24.de/expose/160207302;;;Herr Michael Stampfl;07/07/2025;1;27;1.090 €;1.9.2025;Sendlinger Feld, 81371 München
+3;07.07;https://www.immobilienscout24.de/expose/128954260;;;Herr Johannes Eltz;07/07/2025;1;30;1.200 €;1.9.2025;Schleißheimer Straße 188, Am Luitpoldpark, 80797 München
+4;07.07;https://www.immobilienscout24.de/expose/160273597;;;;07/07/2025;2;50;1.079,19 €;01.08.2025;Georgenstraße 108, Neuschwabing, 80798 München
+5;07.07;https://www.immobilienscout24.de/expose/160292486;;;Frau Manuela Dorin;07/07/2025;1.5;40;800,44 €;01.09.2025;Schmuzerstraße 16, Mittersendling, 81373 München
+6;07.07;https://www.immobilienscout24.de/expose/156671606;;;Herr Stephan Maier;07/07/2025;1;29;870 €;1.8.25;Springerstraße 31, Solln, 81477 München
+7;07.07;https://www.immobilienscout24.de/expose/160295176;;;Herr Michael Klügl;07/07/2025;2;50;1.160 €;1.8.2025;Pappenheimstraße 7, Marsfeld, 80335 München
+8;07.07;https://www.immobilienscout24.de/expose/160295064;;;Frau Dominique Müller;07/07/2025;2;57;1.070 €;sofort;Grandauerstrasse 24, Allach, 80997 München
+1;07.08;https://www.immobilienscout24.de/expose/160304698;;;Firma   Killer Haus- und Mietverwaltung GmbH;08/07/2025;1;40.87;1.000 €;;Weltenburger Str. 43, Englschalking, 82131 München
+2;07.08;https://www.immobilienscout24.de/expose/160297164;;;;07/07/2025;1.5;42;1.050 €;Ab sofort bezugsfrei;Ratoldstraße 30, Feldmoching, 80995 München
+3;07.08;https://www.immobilienscout24.de/expose/160290206;;;Jakob Holzapfl;08/07/2025;1;35;850 €;1.9.2025;Sachranger Straße 39, Obergiesing, 81549 München
+4;07.08;https://www.immobilienscout24.de/expose/160310837;;;Herr Herr Lange;08/07/2025;2;51;1.170 €;1.8.2025;Dornbergstraße 23, Echarding, 81673 München
+5;07.08;https://www.immobilienscout24.de/expose/156985947;;;Herr Emil Peithner;08/07/2025;1;32;1.190 €;8.7.2025;Erich-Kästner-Straße 12, Neuschwabing, 80796 München
+6;07.08;https://www.immobilienscout24.de/expose/160315652;;;Janine Weinhold;08/07/2025;2;50.4;1.199,19 €;01.10.2025;Georgenstr. 108, Neuschwabing, 80798 München
+7;07.08;https://www.immobilienscout24.de/expose/141601881;;;Herr Thomas R.;08/07/2025;1;27;1.050 €;20.4.2023;Schleißheimerstr. 124, Neuschwabing, 80797 München
+8;07.08;https://www.immobilienscout24.de/expose/160319813;;;Herr Manfred Selmer;08/07/2025;1;34;770 €;15.9.2025;Forstenried, 81476 München
+1;07.09;https://www.immobilienscout24.de/expose/115175286;;;Herr . Danner;09/07/2025;1;39;920 €;15.7.2025;Obermenzing, 81245 München
+2;07.09;https://www.immobilienscout24.de/expose/88656433;;;Herr R. Meierlohr;09/07/2025;1;30;950 €;1.8.2025;Springerstr. 33, Solln, 81477 München
+3;07.09;https://www.immobilienscout24.de/expose/160333141;;;Frau  Baum.;09/07/2025;2;45.5;1.124,85 €;19.08.25;Echinger Str. 14C, Alte Heide-Hirschau, 80805 München
+4;07.09;https://www.immobilienscout24.de/expose/160341083;;;Herr Der Vermieter;09/07/2025;1;35;900 €;1.8.2025;Tucholskystraße 8, Neuperlach, 81737 München
+1;07.10;https://www.immobilienscout24.de/expose/160342708;;;Frau Conny Jolitz;09/07/2025;2;50;1.070 €;15.8.2025;Sarlouiser Str. 3, Moosach-Bahnhof, 80993 München
+2;07.10;https://www.immobilienscout24.de/expose/160342823;;;Immobilien Philipp Nothdurft;10/07/2025;1;33;1.080 €;nach Absprache, ca.01.09.2025;Zillertalstr. 0, Mittersendling, 81373 München
+3;07.10;https://www.immobilienscout24.de/expose/160343139;;;Frau Pia Legler;10/07/2025;1.5;35;1.000 €;16.07.2025;Kleinstraße 45, Thalkirchen, 81379 München
 4;07.10;;;;;;;;;;
-5;07.10;https://www.immobilienscout24.de/expose/139349444;;;Frau Dorit Burgstaller;10-07-2025;1;43;890 €;15. 08. 2025;Alzstr. 11, Obergiesing, 81549 München
-6;07.10;https://www.immobilienscout24.de/expose/160365075;;;Herr Alexander Heiß;10-07-2025;1;33;880 €;1.8.2025;Belgradstraße 74, Am Luitpoldpark, 80804 München
-1;07.11;https://www.immobilienscout24.de/expose/151834457;;;Frau C. Saur;11-07-2025;1;38;1.180 €;1.9.2025;Friedenheim, 80686 München
-2;07.11;https://www.immobilienscout24.de/expose/160319150;;;Frau B. D.;11-07-2025;1.5;42;1.020 €;1.9.2025;Rotbuchenstr. 40, Neuharlaching, 81547 München
-3;07.11;https://www.immobilienscout24.de/expose/160318371;;;Herr Aaron Kist;11-07-2025;1;33;880 €;1.10.2025;Situlistraße 44, Obere Isarau, 80939 München
+5;07.10;https://www.immobilienscout24.de/expose/139349444;;;Frau Dorit Burgstaller;10/07/2025;1;43;890 €;15. 08. 2025;Alzstr. 11, Obergiesing, 81549 München
+6;07.10;https://www.immobilienscout24.de/expose/160365075;;;Herr Alexander Heiß;10/07/2025;1;33;880 €;1.8.2025;Belgradstraße 74, Am Luitpoldpark, 80804 München
+1;07.11;https://www.immobilienscout24.de/expose/151834457;;;Frau C. Saur;11/07/2025;1;38;1.180 €;1.9.2025;Friedenheim, 80686 München
+2;07.11;https://www.immobilienscout24.de/expose/160319150;;;Frau B. D.;11/07/2025;1.5;42;1.020 €;1.9.2025;Rotbuchenstr. 40, Neuharlaching, 81547 München
+3;07.11;https://www.immobilienscout24.de/expose/160318371;;;Herr Aaron Kist;11/07/2025;1;33;880 €;1.10.2025;Situlistraße 44, Obere Isarau, 80939 München
+1;07.13;https://www.immobilienscout24.de/expose/160418267;;;Herr judith sundermann;13/07/2025;2;48;919 €;26.7.2025;Kirchmairstraße 38, St. Ulrich, 80686 München
+2;07.13;https://www.immobilienscout24.de/expose/160419439;;;Frau Anita Pöchlauer;13/07/2025;2;55.8;1.155 €;ab sofort verfügbar;Solln, 81479 München
+3;07.13;https://www.immobilienscout24.de/expose/160421762;;;Herr Sanjay Kumar;13/07/2025;1;32;930 €;1.8.2025;Hardenbergstr 20, Alt-Moosach, 80992 München
+4;07.13;https://www.immobilienscout24.de/expose/160420930;;;Herr Markus Hindinger;13/07/2025;1.5;46.3;1.150 €;kurzfristig n.V.;Ravensburger Ring 55, Aubing-Süd, 81243 München
+5;07.13;https://www.immobilienscout24.de/expose/160421400;;;Claudia Mols;13/07/2025;2;49;1.082 €;1.8.2025;Zellerhornstraße 8a, Balanstraße-West, 81549 München
