@@ -1,1 +1,6 @@
 .DS_Store
+
+# Ignore parsed HTML folder and output files
+HTMLs/
+apartment_list.csv
+parsed_files.txt
